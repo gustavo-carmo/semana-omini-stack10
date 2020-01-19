@@ -38,6 +38,7 @@ module.exports = {
       });
     }
 
+    console.log(dev);
     return res.json(dev);
   },
 
