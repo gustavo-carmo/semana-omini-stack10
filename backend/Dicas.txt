@@ -1,0 +1,18 @@
+API REST - Metódos HTTP: GET, POST, PUT, DELETE
+
+Tipos de parâmetros:
+
+Query Params: request.query (Acessar pelo express) -> Serve para receber 
+parâmetros de Filtros, Ordenação, Paginação entre outros (Ficam visiveis na rota)
+exemplo: "ominiweek.com.br?search=Gustavo"
+
+Route Params: request.params (Identificar um recrso na alteração ou remoção)
+exemplo: "ominiweek.com.br/users/1"
+exemplo na rota: "/users/:nomeDoParametro"
+
+Body: request.body (Dados para a criação ou alteração de um registro)
+exemplo de envio: 
+{
+  "nome": "Gustavo",
+  "email": "gustavo.silva.carmo@hotmail.com"
+}
