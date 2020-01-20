@@ -137,3 +137,22 @@ yarn-debug.log*
 yarn-error.log*
 
 ############### IGNORE - WEB ###############
+
+############### IGNORE - MOBILE ###############
+
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+
+# macOS
+.DS_Store
+
+############### IGNORE - MOBILE ###############
